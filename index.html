@@ -6,14 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DocSeba</title>
- <!--===================== FAV ICON  =============================-->
- <link rel="shortcut icon" href="images/icons/icon fav.jpg" type="image/x-icon">
+  <!--===================== FAV ICON  =============================-->
+  <link rel="shortcut icon" href="images/icons/icon fav.jpg" type="image/x-icon">
 
- <!--===================== BOOTSTRAP LINK  =========================-->
- <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--===================== BOOTSTRAP LINK  =========================-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-   <!--=================== FONT AWESOME new ======================= -->
-   <script src="https://kit.fontawesome.com/a62b819ccc.js" crossorigin="anonymous"></script>
+  <!--===================== CSS LINK  ==============================-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--=================== FONT AWESOME new ======================= -->
+  <script src="https://kit.fontawesome.com/a62b819ccc.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -53,7 +56,7 @@
                 <li><a class="dropdown-item" href="#">কুমিল্লা</a></li>
                 <li><a class="dropdown-item" href="#">ঢাকা</a></li>
                 <li><a class="dropdown-item" href="#">ফরিদপুর</a></li>
-                <li><a class="dropdown-item" href="#"> যশোর  </a></li>
+                <li><a class="dropdown-item" href="#"> যশোর </a></li>
                 <li><a class="dropdown-item" href="#">ঝিনাইদাহ</a></li>
                 <li><a class="dropdown-item" href="Doctor-magura.html"> মাগুরা</a></li>
               </ul>
@@ -90,7 +93,7 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">ডকসেবা </a>
             </li>
-           
+
 
           </ul>
           <!-- search bar  -->
@@ -110,7 +113,8 @@
           ---------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5">
       <div class="container">
-        <a class="navbar-brand mt-2" href="#"><button class="btn btn-outline-success me-2" type="button"> <i class="fa-solid fa-right-to-bracket"></i> Sign
+        <a class="navbar-brand mt-2" href="#"><button class="btn btn-outline-success me-2" type="button"> <i
+              class="fa-solid fa-right-to-bracket"></i> Sign
             In</button></a>
 
         <ul class="navbar-nav ms-auto">
@@ -119,7 +123,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active mt-2" aria-current="page" href="https//:www.google.com"> <button
-                class="btn btn-outline-primary me-2" type="button"><i class="fa-solid fa-user"></i> Profile </button> </a>
+                class="btn btn-outline-primary me-2" type="button"><i class="fa-solid fa-user"></i> Profile </button>
+            </a>
           </li>
 
         </ul>
@@ -151,14 +156,14 @@
           <div class="carousel-item active">
             <img src="images/courses/service1.jpg" class="d-block w-100" alt="...">
             <div class=" carousel-caption d-flex d-md-block">
-                  <div class="row">
-                    <div class="col-12">
-                      <h5 class="" > ডাক্তার খুঁজুন এখন অনলাইনে </h5>
-                    </div>
-                    <!-- <div class="col-lg-12">
+              <div class="row">
+                <div class="col-12">
+                  <h5 class=""> ডাক্তার খুঁজুন এখন অনলাইনে </h5>
+                </div>
+                <!-- <div class="col-lg-12">
                       <p class="fs-6 m-0"> ২৪ জেলার ডাক্তারদের সকল তথ্য জানুন এবং সিরিয়াল নিন যেকোনো সময় </p>
                     </div> -->
-                  </div>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
@@ -182,7 +187,7 @@
                 <div class="col-12">
                   <h5> স্পেশালিস্ট খুঁজুন অনলাইনে</h5>
                 </div>
-              <!-- <div class="col-12">
+                <!-- <div class="col-12">
                 <p>Some representative placeholder content for the third slide.</p>
               </div> -->
               </div>
@@ -193,9 +198,9 @@
             <div class="carousel-caption d-flex d-md-block">
               <div class="row">
                 <div class="col-12">
-                  <h5> ডায়াবেটিস সেন্টার খুঁজুন অনলাইনে</h5>
+                  <h5> ডায়াগনিস্ট সেন্টার খুঁজুন অনলাইনে</h5>
                 </div>
-              <!-- <div class="col-12">
+                <!-- <div class="col-12">
                 <p>Some representative placeholder content for the third slide.</p>
               </div> -->
               </div>
@@ -208,7 +213,7 @@
                 <div class="col-12">
                   <h5> আর্টিকেল পড়ুন অনলাইনে</h5>
                 </div>
-              <!-- <div class="col-12">
+                <!-- <div class="col-12">
                 <p>Some representative placeholder content for the third slide.</p>
               </div> -->
               </div>
@@ -226,12 +231,104 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <!-- carousel end  -->
+      <!--========================= carousel end  =======================-->
     </section>
 
-    <!-------------------
-         Medical Article Part Start  
-        ---------------------------->
+
+    <!--===================== DROPDOWN-DOCTOR SEARCH  ====================-->
+    <section class="container bg-white rounded mt-3 mx-auto pb-4 pt-3">
+      <div class="row g-3 ">
+
+
+        <div class=" btn-group col-lg-4 col-md-12 col-12 d-flex align-items-center  flex-column">
+          <div class="pb-2">
+            <span class="text-secondary">বিশেষজ্ঞ ডাক্তার খুঁজুন-</span>
+          </div>
+
+
+          <button class="btn btn-secondary dropdown-toggle  " type="button" id="dropdownMenuButton2"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-plus"></i> অবস্থান নির্বাচন
+
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark force-scroll" aria-labelledby="dropdownMenuButton2">
+
+            <li><a class="dropdown-item" href="#"> বাগেরহাট </a></li>
+            <li><a class="dropdown-item" href="#">বান্দরবান</a></li>
+            <li><a class="dropdown-item" href="#">কুমিল্লা</a></li>
+            <li><a class="dropdown-item" href="#">ঢাকা</a></li>
+            <li><a class="dropdown-item" href="#">ফরিদপুর</a></li>
+            <li><a class="dropdown-item" href="#"> যশোর </a></li>
+            <li><a class="dropdown-item" href="#">ঝিনাইদাহ</a></li>
+            <li><a class="dropdown-item" href="Doctor-magura.html"> মাগুরা</a></li>
+          </ul>
+        </div>
+
+
+        <div class=" btn-group col-lg-4 col-md-12 col-12 d-flex align-items-center  flex-column">
+          <div class="pb-2">
+            <span class="text-secondary">অ্যাম্বুলেন্স খুঁজুন-</span>
+          </div>
+
+
+          <button class="btn btn-secondary dropdown-toggle  " type="button" id="dropdownMenuButton2"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-plus"></i> অবস্থান নির্বাচন
+
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark force-scroll" aria-labelledby="dropdownMenuButton2">
+
+            <li><a class="dropdown-item" href="#"> বাগেরহাট </a></li>
+            <li><a class="dropdown-item" href="#">বান্দরবান</a></li>
+            <li><a class="dropdown-item" href="#">কুমিল্লা</a></li>
+            <li><a class="dropdown-item" href="#">ঢাকা</a></li>
+            <li><a class="dropdown-item" href="#">ফরিদপুর</a></li>
+            <li><a class="dropdown-item" href="#"> যশোর </a></li>
+            <li><a class="dropdown-item" href="#">ঝিনাইদাহ</a></li>
+            <li><a class="dropdown-item" href="Doctor-magura.html"> মাগুরা</a></li>
+          </ul>
+        </div>
+
+
+        <div class=" btn-group col-lg-4 col-md-12 col-12 d-flex align-items-center  flex-column">
+          <div class="pb-2">
+            <span class="text-secondary"> ডায়াগনিস্ট সেন্টার খুঁজুন-</span>
+          </div>
+
+
+          <button class="btn btn-secondary dropdown-toggle  " type="button" id="dropdownMenuButton2"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-plus"></i> অবস্থান নির্বাচন
+
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark force-scroll" aria-labelledby="dropdownMenuButton2">
+
+            <li><a class="dropdown-item" href="#"> বাগেরহাট </a></li>
+            <li><a class="dropdown-item" href="#">বান্দরবান</a></li>
+            <li><a class="dropdown-item" href="#">কুমিল্লা</a></li>
+            <li><a class="dropdown-item" href="#">ঢাকা</a></li>
+            <li><a class="dropdown-item" href="#">ফরিদপুর</a></li>
+            <li><a class="dropdown-item" href="#"> যশোর </a></li>
+            <li><a class="dropdown-item" href="#">ঝিনাইদাহ</a></li>
+            <li><a class="dropdown-item" href="Doctor-magura.html"> মাগুরা</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!---=================Medical Article Part Start=====================--->
     <section class="container px-4 mt-5">
       <h1 class="mb-5 text-center">Read Medical Article </h1>
 
